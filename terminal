@@ -1,0 +1,12 @@
+npx create-react-app portfolio
+cd portfolio
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material react-router-dom framer-motion react-intersection-observer @mui/lab 
+npm install
+npm clean cache --force
+npm start 
+rm -rf node_modules
+npm install 
+cd MyPortfolio 
+npm init -y 
+npm uninstall react-tsparticles tsparticles
+npm install react-tsparticles@2.12.0 tsparticles@2.12.0 
